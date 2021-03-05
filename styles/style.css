@@ -24,3 +24,25 @@
     float: left;
     text-shadow: #1b1b1b 1.5px 1.5px 1.5px;
 }
+
+.navbar a:hover {
+	background-color: #1a1a1a; 
+	color: #33ff33;
+}
+
+.navbar a.active {
+	background-color: #1a1a1a; 
+	color: #33ff33;
+}
+
+/* Background and Text base */
+
+body {
+	background-color: #b6e1f6;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+	color: #ff0000
+	font-size: 2.5em;
+}
