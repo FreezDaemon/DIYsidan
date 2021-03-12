@@ -46,3 +46,58 @@ h1 {
 	color: #ff0000
 	font-size: 2.5em;
 }
+
+.textBody {
+    background-color: #e4d1d3;
+    color: #00181d;
+    padding: 100px;
+    margin: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 0 0 6px 6px;
+}
+
+button.hideShow {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    transition: 0.3s;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 6px;
+    font-size: 2em;
+    color: #1687a7;
+}
+
+button.hideShow.active {
+    background-color: rgba(255,255,255,0.8);
+    color: #1687a7;
+    margin: 4px 4px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+button.hideShow:hover {
+    background-color: rgba(255,255,255,0.8);
+    color: #1687a7;
+    text-shadow: #1b1b1b 1px 1px 2px;
+}
+
+div.content {
+    background-color: rgba(255,255,255,0.3);
+    color: #000;
+    border-radius: 0 0 6px 6px;
+    overflow: hidden;
+    opacity: 0;
+    max-height: 0;
+    transition: 0.3s;
+
+}
+
+div.content.show {
+    opacity: 100;
+    max-height: 500px;
+    padding: 8px;
+}
