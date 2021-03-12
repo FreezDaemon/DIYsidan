@@ -48,13 +48,13 @@ h1 {
 }
 
 .textBody {
-    background-color: #e4d1d3;
-    color: #00181d;
-    padding: 100px;
+    color: #000000;
     margin: auto;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding: 80px;
     border-radius: 0 0 6px 6px;
+    text-align: center;
 }
 
 button.hideShow {
@@ -62,9 +62,9 @@ button.hideShow {
     border: none;
     outline: none;
     width: 100%;
-    text-align: left;
+    text-align: center;
     background-color: transparent;
-    transition: 0.3s;
+    transition: 0.5s;
     padding: 8px;
     margin: 4px 0;
     border-radius: 6px;
@@ -73,15 +73,15 @@ button.hideShow {
 }
 
 button.hideShow.active {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(0,24,29,0.8);
     color: #1687a7;
     margin: 4px 4px 0 0;
     border-radius: 6px 6px 0 0;
 }
 
 button.hideShow:hover {
-    background-color: rgba(255,255,255,0.8);
-    color: #1687a7;
+    background-color: rgba(0,24,29,0.8);
+    color: #33ff33;
     text-shadow: #1b1b1b 1px 1px 2px;
 }
 
