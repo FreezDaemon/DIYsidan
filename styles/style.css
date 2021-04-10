@@ -35,6 +35,30 @@
 	color: #33ff33;
 }
 
+/* Down bar*/
+.downbar  {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 54px;
+    min-width: 550px;
+    background-color: #3EA7D1;
+    overflow: hidden;
+}
+
+/* Options for down bar*/
+
+.downbar a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    float: left;
+    text-shadow: #1b1b1b 1.5px 1.5px 1.5px;
+}
+
 /* Background and Text base */
 
 body {
