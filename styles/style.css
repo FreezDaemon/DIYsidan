@@ -27,23 +27,24 @@
 
 .navbar a:hover {
 	background-color: #1a1a1a; 
-	color: #33ff33;
+	color: #74cef2;
 }
 
 .navbar a.active {
 	background-color: #1a1a1a; 
-	color: #33ff33;
+	color: #74cef2;
 }
 
 /* Down bar*/
 .downbar  {
     position: relative;
-    bottom: 0px;
+    top: 0;
     width: 100%;
-    height: 100px;
+    height: 150px;
     min-width: 550px;
     background-color: #3EA7D1;
     overflow: hidden;
+    text-align: center;
 }
 
 /* Options for down bar*/
@@ -55,8 +56,18 @@
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    float: left;
+    float: center;
     text-shadow: #1b1b1b 1.5px 1.5px 1.5px;
+}
+
+.downbar a:hover {
+    background-color: #1a1a1a; 
+    color: #74cef2;
+}
+
+.downbar a.active {
+    background-color: #1a1a1a; 
+    color: #74cef2;
 }
 
 .videos {
@@ -84,6 +95,7 @@ h1 {
     padding: 80px;
     border-radius: 0 0 6px 6px;
     text-align: center;
+    position: relative;
 }
 
 button.hideShow {
@@ -103,45 +115,15 @@ button.hideShow {
 
 
 button.hideShow:hover {
-    background-color: rgba(0,24,29,0.8);
-    color: #33ff33;
-    text-shadow: #1b1b1b 1px 1px 2px;
+    background-color: #1a1a1a; 
+    color: #74cef2;
+    text-shadow: #74cef2 1px 1px 2px;
 }
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 16px; 
-  margin-bottom: 16px; 
-  resize: vertical 
-  border-radius: 100px;
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
 
 .contact-form{
   width: 85%;
   max-width: 600px;
-  background: #f1f1f1;
+  background: #d5edf2;
   position: absolute;
   top: 2; 
   left: 50%;
